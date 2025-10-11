@@ -29,11 +29,11 @@ It helps truckers save fuel, avoid toll overpay, and optimize IFTA reporting —
 
 | Layer | Technology |
 |-------|-------------|
-| Frontend | React Native / Expo |
-| Backend | FastAPI (Python) / Node.js |
-| Database | Firebase / Supabase |
-| Design | Figma + Tokens Studio + Galileo AI |
-| APIs | Fuel, Weather, Toll, IFTA |
+| **Frontend** | React Native / Expo |
+| **Backend** | FastAPI (Python) |
+| **Database** | Firebase / Supabase |
+| **Design** | Figma + Tokens Studio |
+| **AI & APIs** | OpenAI • Galileo AI • Fuel • Weather • Toll • IFTA |
 
 ---
 
@@ -54,9 +54,10 @@ MSR aims to make road operations intelligent, efficient, and stress-free.
 Our belief: **AI should simplify — not complicate — the driver’s life.**
 
 ---
-
-📘 **Full documentation:** [View here →](docs/README.md)
-
----
+## 📚 Documentation
+Full project documentation is available in the [/docs](docs/) folder:
+- [Architecture](docs/architecture.md)
+- [User Flow](docs/flow.md)
+- [UI Kit](docs/ui-kit.md)
 
 © 2025 **Lafwiron Projects** — All Rights Reserved.
