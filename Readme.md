@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/design/msr_logo.png" alt="MSR Logo" width="140">
+  <img src="design/msr_logo.png" alt="MSR Logo" width="140">
 </p>
 
 <h1 align="center">🚛 My Smart Road (MSR)</h1>
