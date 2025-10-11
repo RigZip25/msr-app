@@ -1,7 +1,5 @@
-![MSR Logo](design/icons/msr_logo.png)
-
 <p align="center">
-  <img src="design/icons/msr_logo.png" alt="MSR Logo" width="120">
+  <img src="design/icons/msr_logo.png" alt="MSR Logo" width="140">
 </p>
 
 <h1 align="center">🛣️ MSR Project Documentation</h1>
