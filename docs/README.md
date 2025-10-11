@@ -1,50 +1,83 @@
-<p align="center">
-  <img src="Logo%20MSR.png" alt="My Smart Road Logo" width="160"/>
-</p>
+# 📘 MSR Documentation
 
-# 🚛 MSR (My Smart Road)
-> Navigate smarter. Drive farther. Earn more.
-
-**AI-driven route optimizer for owner-operators.**  
-Optimizes fuel stops, tolls, IFTA, and weather-based route planning in real time.
+Welcome to the internal documentation of **My Smart Road (MSR)** —  
+an AI-powered ecosystem for route optimization, IFTA automation, and intelligent trucking.
 
 ---
 
-## ✨ Features
+## 🧱 Project Structure
 
-- 🧠 AI route optimization (fuel, tolls, weather, IFTA)
-- ⛽ Smart fuel stop suggestions with cost & distance analysis
-- 🛣️ Real-time road and facility insights (closures, rest areas, weigh stations)
-- 💵 IFTA automatic reporting and savings tracking
-- 📊 Multi-vehicle fleet management (coming soon)
-
----
-
-## 🧩 Vision
-
-MSR (My Smart Road) is built for independent drivers and small fleets.  
-Our mission is to make road operations intelligent, fuel-efficient, and stress-free.  
-We believe AI should simplify — not complicate — the trucking life.
-
----
-
-## 🧰 How to Contribute
-
-1. Fork this repository  
-2. Create your feature branch: `git checkout -b feature-name`  
-3. Commit your changes: `git commit -m 'Added new feature'`  
-4. Push to the branch: `git push origin feature-name`  
-5. Open a pull request 🚀  
+msr-app/
+│
+├── docs/
+│ ├── flow.md # User journey (onboarding → route → IFTA)
+│ ├── architecture.md # System architecture & API logic
+│ ├── ui-kit.md # Design tokens & components
+│ └── design/
+│ └── icons/
+│ └── msr_logo.png
+│
+├── frontend/ # React Native / Expo mobile app
+├── backend/ # FastAPI / Node.js backend
+├── LICENSE
+└── README.md # Main project overview
 
 ---
 
-## 🖼️ Preview
+## ⚙️ Architecture Overview
 
-<p align="center">
-  <img src="Logo%20MSR.png" alt="MSR Logo" width="120" /><br>
-  <em>Smart roads start here — optimized fuel, time & peace of mind.</em>
-</p>
+- **Frontend (Mobile):** Built in React Native with Expo.  
+  Handles map rendering, fuel logic, and live driver interface.  
+- **Backend:** FastAPI (Python) with modular REST endpoints (Fuel, Route, IFTA).  
+- **Database:** Firebase / Supabase for authentication & storage.  
+- **AI Layer:** Aggregates data from Fuel + Toll + Weather APIs for optimization.
+
+More details in [`architecture.md`](architecture.md).
 
 ---
 
-© 2025 **Lafwiron Projects** — All Rights Reserved.
+## 🧭 User Flow
+
+See [`flow.md`](flow.md) for full journey:  
+From onboarding and truck setup to fuel optimization and IFTA summary.
+
+---
+
+## 🎨 UI Kit
+
+Visual components, icons, and design tokens are listed in [`ui-kit.md`](ui-kit.md).  
+This includes colors, typography, and reusable interface elements.
+
+---
+
+## 🧩 Integrations
+
+| Integration | Description |
+|--------------|-------------|
+| Fuel APIs | TA, Pilot, Loves, Petro networks |
+| Weather | NOAA + OpenWeather real-time data |
+| Maps | Google Maps / Mapbox SDK |
+| IFTA | State tax & mileage aggregation |
+| Tolls | TollGuru / custom route calculation |
+
+---
+
+## 🚀 Development Setup
+
+> _This section will expand when coding begins._
+
+- Fork the repo and clone locally  
+- `npm install` for dependencies  
+- `expo start` to run the app  
+- `.env` to store API keys for fuel/weather/IFTA
+
+---
+
+## 🛡 License
+
+Licensed under the [MIT License](../LICENSE).  
+© 2025 **Lafwiron Projects**
+
+---
+
+*Smart roads start here — optimized fuel, time & peace of mind.*
