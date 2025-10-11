@@ -4,8 +4,6 @@
 
 <h1 align="center">🛣️ MSR Project Documentation</h1>
 
-# 🛣️ MSR Project Documentation
-
 **MSR (My Smart Road)** — AI-driven route optimizer for owner-operators.
 
 Optimizes routes, fuel stops, tolls, and IFTA reports in real time using smart AI integration.
