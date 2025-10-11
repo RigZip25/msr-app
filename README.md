@@ -3,6 +3,7 @@
 </p>
 
 # 🚛 MSR (My Smart Road)
+> Navigate smarter. Drive farther. Earn more.
 
 **AI-driven route optimizer for owner-operators.**  
 Optimizes fuel stops, tolls, IFTA, and weather-based route planning in real time.
