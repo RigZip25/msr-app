@@ -1,3 +1,5 @@
+![MSR Logo](design/icons/msr_logo.png)
+
 <p align="center">
   <img src="design/icons/msr_logo.png" alt="MSR Logo" width="120">
 </p>
