@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="design/icons/msr_logo.png" width="140" alt="My Smart Road Logo"/>
+</p>
+
+<h1 align="center">🛣️ MSR Project Documentation</h1>
+
 # 🛣️ MSR Project Documentation
 
 **MSR (My Smart Road)** — AI-driven route optimizer for owner-operators.
@@ -56,12 +62,11 @@ Includes Figma tokens, color system, and custom icons (Fuel, Rest, Facility, Wei
 
 | Layer | Technology |
 |-------|-------------|
-| Frontend | React Native / Expo |
+| Frontend | React Native / Expo + Tailwind (NativeWind) |
 | Backend | FastAPI (Python) or Node.js (Express) |
 | Design | Figma + Tokens Studio + Galileo AI |
 | Database | Firebase / Supabase (for MVP) |
 | APIs | Fuel, Weather, IFTA (to be integrated) |
-
 ---
 
 ## 📅 Roadmap
@@ -74,5 +79,14 @@ Includes Figma tokens, color system, and custom icons (Fuel, Rest, Facility, Wei
 | Phase 4 | AI-driven optimization | Q2 2026 |
 
 ---
+
+## 🧩 Vision
+
+MSR (My Smart Road) is built for independent drivers and small fleets.  
+Our mission is to make road operations intelligent, fuel-efficient, and stress-free.  
+We believe AI should simplify—not complicate—the trucking life.
+
+---
+
 
 © 2025 **Lafwiron Projects** — All Rights Reserved.
