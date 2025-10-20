@@ -60,4 +60,10 @@ Full project documentation is available in the [/docs](docs/) folder:
 - [User Flow](docs/flow.md)
 - [UI Kit](docs/ui-kit.md)
 
+  ## Backend Services
+- [Billing Module](backend/src/services/billing/README.md)
+- [Fleet / Route Optimization] (coming soon)
+- [AI Builders] (coming soon)
+
+
 © 2025 **Lafwiron Projects** — All Rights Reserved.
